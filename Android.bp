@@ -4992,6 +4992,15 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_vendor.dolby.hardware.dms",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
 cc_prebuilt_binary {
 	name: "adpl",
 	owner: "xiaomi",
@@ -5697,4 +5706,3 @@ cc_prebuilt_binary {
 	prefer: true,
 	system_ext_specific: true,
 }
-
